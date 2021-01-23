@@ -46,6 +46,7 @@ td {
 
  thead, tfoot {
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("/assets/leopardskin.jpg");
+  background-size: cover;
  } 
 
  tbody tr {
@@ -63,7 +64,7 @@ td {
   caption-side: bottom;
 }
 
-/* .punk th:nth-child(1) {
+.punk th:nth-child(1) {
   width: 30%;
 }
 
@@ -77,7 +78,7 @@ td {
 
 .punk th:nth-child(4) {
   width: 35%;
-} */
+}
 
 .punk tbody tr:nth-child(odd) {
   background-color: #ff33cc;
