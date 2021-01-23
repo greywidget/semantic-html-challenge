@@ -3,9 +3,84 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: #FFF;
 }
 
-h1 {
+th {
+  border: 2px solid #800080;
+  color: #FFF;
+  padding: 1em 0;
+}
+
+td {
+  font-family: HelveticaNeue, sans-serif;
+  text-align: center;
+  padding: 1em 0;
+}
+
+table {
+  background-color: #FFF;
+  font-family: 'Rock Salt', cursive;
+  /* font-size: 80%; */
+  border: 2px solid #800080;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+ thead, tfoot {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("/assets/leopardskin.jpg");
+ } 
+
+ tbody tr {
+   background-image: url("/assets/noise.png");
+ }
+
+.punk caption {
+  text-align: right;
   font-style: italic;
-  color: #373fff;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.punk {
+  caption-side: bottom;
+}
+
+.punk th:nth-child(1) {
+  width: 30%;
+}
+
+.punk th:nth-child(2) {
+  width: 20%;
+}
+
+.punk th:nth-child(3) {
+  width: 15%;
+}
+
+.punk th:nth-child(4) {
+  width: 35%;
+}
+
+.punk tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+.punk tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+.summary-text {
+  text-align: right;
+  padding-right: 1.5em;
+}
+
+.summary-total {
+  text-align: left;
+  padding-left: 1.5em;
+}
+
+.sortme {
+  background-color: rgb(11, 70, 138);
 }
