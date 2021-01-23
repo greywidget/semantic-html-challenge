@@ -14,15 +14,21 @@
 
   </head>  
   <body>
-    <div class="sortme">
+    <header>
+      <h1>HTML/CSS Table Challenge</h1>
+    </header>
+
+    <main>
+      <p>The challenge for week 3 <strong>Semantics and Accessibility</strong> was to style the table from the
+        <a href="https://github.com/thecodersguilduk/semantic-html-challenge" alt="The Coders Guild Semantic HTML Challenge Repo">Semantic html challenge</a></p>
       <table class="punk">
         <caption>A summary of the UK's most famous punk bands</caption>
         <thead>
           <tr>
-            <th scope="col">Band</th>
-            <th scope="col">Year Formed</th>
-            <th scope="col">No. of Albums</th>
-            <th scope="col">Most Famous Song</th>
+            <th scope="col" width="30%">Band</th>
+            <th scope="col" width="20%">Year Formed</th>
+            <th scope="col" width="15%">No. of Albums</th>
+            <th scope="col" width="35%">Most Famous Song</th>
           </tr>
         </thead>
         <tbody>
@@ -82,11 +88,8 @@
           </tr>
         </tfoot>
       </table>
-    </div>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
+    </main>
+
   </body>
 </html>
