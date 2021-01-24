@@ -41,7 +41,7 @@ table caption {
 }
 
 tbody tr {
-  background-image: url("/assets/noise.png");
+  background-image: url("./assets/noise.png");
 }
 
 tbody td {
@@ -50,7 +50,7 @@ tbody td {
 }
 
 thead, tfoot{
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("/assets/leopardskin.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg");
   background-size: cover;
 } 
 
