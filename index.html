@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
+    <title>UK Punk Bands of the Seventies</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- import RockSalt font from googlefonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
@@ -21,16 +22,19 @@
     <main>
       <p>The challenge for week 3 <strong>Semantics and Accessibility</strong> was to style the table from the
         <a href="https://github.com/thecodersguilduk/semantic-html-challenge" alt="The Coders Guild Semantic HTML Challenge Repo">Semantic html challenge</a></p>
-      <table class="punk">
+
+      <table id="punk-bands">
         <caption>A summary of the UK's most famous punk bands</caption>
+
         <thead>
           <tr>
-            <th scope="col">Band</th>
-            <th scope="col">Year Formed</th>
-            <th scope="col">No. of Albums</th>
-            <th scope="col">Most Famous Song</th>
+            <th scope="col" class="punk-text">Band</th>
+            <th scope="col" class="punk-text">Year Formed</th>
+            <th scope="col" class="punk-text">No. of Albums</th>
+            <th scope="col" class="punk-text">Most Famous Song</th>
           </tr>
         </thead>
+
         <tbody>
           <tr>
             <td>Buzzcocks</td>
@@ -81,10 +85,11 @@
             <td>No More Heroes</td>
           </tr>
         </tbody>
+
         <tfoot>
           <tr>
-            <th class="summary-text" scope="col" colspan="2">TOTAL ALBUMS</th>
-            <th class="summary-total" scope="col" colspan="2">77</th>
+            <td class="summary-text punk-text" colspan="2">TOTAL ALBUMS</td>
+            <td class="summary-total punk-text" colspan="2">77</td>
           </tr>
         </tfoot>
       </table>
