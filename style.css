@@ -29,6 +29,7 @@ table {
   width: 100%;
   text-align: center;
   caption-side: bottom;
+  background-image: url("./assets/leopardskin.jpg");
   background-size: auto;
   background-repeat: repeat;
 } 
@@ -52,7 +53,7 @@ tbody td {
 }
 
 thead, tfoot{
-  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
 } 
 
 /* Column Widths: */
